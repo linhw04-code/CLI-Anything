@@ -114,6 +114,18 @@
       "category": "office"
     },
     {
+      "name": "mubu",
+      "display_name": "Mubu",
+      "version": "0.1.1",
+      "description": "Knowledge management and outlining via local Mubu desktop data",
+      "requires": "Mubu desktop app",
+      "homepage": "https://mubu.com",
+      "install_cmd": "pip install git+https://github.com/HKUDS/CLI-Anything.git#subdirectory=mubu/agent-harness",
+      "entry_point": "cli-anything-mubu",
+      "skill_md": "mubu/agent-harness/cli_anything/mubu/skills/SKILL.md",
+      "category": "office"
+    },
+    {
       "name": "mermaid",
       "display_name": "Mermaid",
       "version": "1.0.0",
